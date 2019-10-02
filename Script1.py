@@ -13,20 +13,15 @@ from bs4 import BeautifulSoup
 
 # List to store response
 forecast = []
-
-#I'm not sure how to do parts 1 and 2
-
-raw_input(['Enter Latitude and Longitude'])
-#ask for user input
-
-#Convert the latitude and longitude values to strings to generate the URL for the selected location. Pass this URL as an argument in the get() request.
-
-
-
 ## Provide the latitude and longitude for the location you would like to check the forecast for
 ## Lat/lon in decimal degrees provided for Worcester, MA
-lat = '42.2634'
-lon = '-71.8022'
+# Enter the lat&lon 
+lat = input('Please enter the latitude: ')
+lon = input('Please enter the longitude: ')
+
+# Change the type of lat&lon.
+lat=str(lat)
+lon=str(lon)
 
 # Create url for the requested location through string concatenation
 url = 'https://forecast.weather.gov/MapClick.php?lat='+lat+"&lon="+lon
