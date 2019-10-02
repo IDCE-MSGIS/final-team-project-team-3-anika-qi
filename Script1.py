@@ -1,10 +1,10 @@
 '''
 # Assignment title: Final Project- Web-scraping Weather Forecast
-# Date: 10/2/2019
+# Date: 09/23/2019
 # Description: The script web-scrapes the weather.gov website to extract the 5-Day weather forecast for a given location
 # Inputs: Latitude & Longitude in Decimal Degrees
 # Outputs: 5-Day Weather Forecast
-#Time Spent: 15 minutes so far - NOT COMPLETE
+#Time Spent: 20 minutes so far - NOT COMPLETE
 '''
 
 # import required libraries
@@ -13,6 +13,15 @@ from bs4 import BeautifulSoup
 
 # List to store response
 forecast = []
+
+#I'm not sure how to do parts 1 and 2
+
+raw_input(['Enter Latitude and Longitude'])
+#ask for user input
+
+#Convert the latitude and longitude values to strings to generate the URL for the selected location. Pass this URL as an argument in the get() request.
+
+
 
 ## Provide the latitude and longitude for the location you would like to check the forecast for
 ## Lat/lon in decimal degrees provided for Worcester, MA
@@ -53,5 +62,4 @@ for day in forecast:
     day = day.replace('thenMostly', 'Then Mostly')
     day = day.upper()
     print day
-
 
