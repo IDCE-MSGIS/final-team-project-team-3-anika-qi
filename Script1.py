@@ -1,10 +1,10 @@
 '''
-# Assignment title: Final Project- Web-scraping Weather Forecast
-# Date: 09/23/2019
+# Assignment title: Final Project- Web-scrapt1
+# Date: 10/02/2019
 # Description: The script web-scrapes the weather.gov website to extract the 5-Day weather forecast for a given location
 # Inputs: Latitude & Longitude in Decimal Degrees
 # Outputs: 5-Day Weather Forecast
-#Time Spent: 20 minutes so far - NOT COMPLETE
+#Time Spent: 20 minutes 
 '''
 
 # import required libraries
