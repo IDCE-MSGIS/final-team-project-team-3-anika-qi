@@ -49,13 +49,22 @@ for i in weather_forecast:
     forecast.append(i)
 
 # Print list to remove unicode characters
+#replace the wrong words
 for day in forecast:
-    day = day.replace('Night', ' Night')
+    day = day.replace('N', ' N')
     day = day.replace('Low', ', Low')
     day = day.replace('High', ', High')
-    day = day.replace('ChanceShowers', 'Chance Showers')
+    day = day.replace('C', ' C')
+    day = day.replace('A', ' A')
+    day = day.replace('P', ' P')
+    day = day.replace('S', ' S')
+    day = day.replace('M', ' M')
+    day = day.replace('H', ' H')
     day = day.replace('thenMostly', 'Then Mostly')
     day = day.replace('Likelythen', 'Likely Then')
+    day = day.replace('\n\n ', '\n\n')
+    day = day.replace('  ', ' ')
+    # Capitalize all letters。
     day = day.upper()
     print day
 
