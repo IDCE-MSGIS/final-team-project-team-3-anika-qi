@@ -1,5 +1,5 @@
 '''
-# Assignment title: Final Project- Web-scrapt1
+# Assignment title: Final Project- Web-scrape Script 1
 # Date: 10/02/2019
 # Description: The script web-scrapes the weather.gov website to extract the 5-Day weather forecast for a given location
 # Inputs: Latitude & Longitude in Decimal Degrees
@@ -55,6 +55,7 @@ for day in forecast:
     day = day.replace('High', ', High')
     day = day.replace('ChanceShowers', 'Chance Showers')
     day = day.replace('thenMostly', 'Then Mostly')
+    day = day.replace('Likelythen', 'Likely Then')
     day = day.upper()
     print day
 
