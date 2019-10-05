@@ -64,7 +64,7 @@ for day in forecast:
     day = day.replace('Likelythen', 'Likely Then')
     day = day.replace('\n\n ', '\n\n')
     day = day.replace('  ', ' ')
-    # Capitalize all letters。
+    # Capitalize all letters.
     day = day.upper()
     print day
 
