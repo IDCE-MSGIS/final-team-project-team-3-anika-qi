@@ -3,6 +3,7 @@ SCRIPT1
 Contributors:
 
 Anika Berger (anberger@clarku.edu)
+
 Qi Zhang (qizhang3@clarku.edu)
 
 PURPOSE
@@ -37,6 +38,7 @@ SCRIPT2
 Contributors:
 
 Anika Berger (anberger@clarku.edu)
+
 Qi Zhang (qizhang3@clarku.edu)
 
 PURPOSE
@@ -67,10 +69,15 @@ In this project, we both learned new things and gained new skills. Encountering 
 Resources
 
 1.https://github.com/jareddalessandro/Weather-openweathermap
+
 2.https://github.com/arjun-thakor/python-weather/blob/master/weather.py
+
 3.https://github.com/clement-mwendwa/WeatherByCity/blob/master/interact.py
+
 4.https://openweathermap.org/api
+
 5.https://www.tutorialspoint.com/pyqt/index.htm
+
 6.https://www.runoob.com/python/python-tutorial.html
 
 
